@@ -29,4 +29,8 @@ public class Collection {
     public boolean checkCollectionContains(Item item) {
          if (collection.contains(item)){return true;} else {return false;}
     }
+
+    public ArrayList <Item> getCollection() {
+        return this.collection;
+    }
 }

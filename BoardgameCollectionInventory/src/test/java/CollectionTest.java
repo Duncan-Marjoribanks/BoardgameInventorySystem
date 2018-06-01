@@ -1,7 +1,10 @@
+import items.Item;
 import items.accessories.Accessory;
 import items.games.Game;
 import org.junit.Before;
 import org.junit.Test;
+
+import java.util.ArrayList;
 
 import static junit.framework.TestCase.assertEquals;
 
@@ -48,5 +51,13 @@ public class CollectionTest {
         collection.addToCollection(game);
         collection.addToCollection(accessory);
         assertEquals(true, collection.checkCollectionContains(game));
+    }
+
+    @Test
+    public void canListAllItemsInCollection() {
+        collection.addToCollection(game);
+        collection.addToCollection(accessory);
+        int numberOfItems = collection.getCollection().size();
+        assertEquals(2, numberOfItems);
     }
 }
