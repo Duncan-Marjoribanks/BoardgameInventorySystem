@@ -1,6 +1,6 @@
 package items;
 
-public class Item {
+public abstract class Item {
 
     private String name;
     private double price;
@@ -18,7 +18,4 @@ public class Item {
     public double getPrice() {
         return this.price;
     }
-
-
-
 }

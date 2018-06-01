@@ -1,26 +1,26 @@
-import items.Item;
+import items.games.Game;
 import org.junit.Before;
 import org.junit.Test;
 
 import static junit.framework.TestCase.assertEquals;
 
-public class ItemTest {
+public class GameTest {
 
-    Item item;
+    Game game;
 
     @Before
     public void before() {
-        item = new Item("Settlers of Catan", 30.00);
+        game = new Game("Settlers of Catan", 30.00);
     }
 
     @Test
     public void canGetName() {
-        assertEquals("Settlers of Catan", item.getName());
+        assertEquals("Settlers of Catan", game.getName());
     }
 
     @Test
     public void canGetPrice() {
-        assertEquals(30.00, item.getPrice(), 0.01);
+        assertEquals(30.00, game.getPrice(), 0.01);
     }
 
 }
