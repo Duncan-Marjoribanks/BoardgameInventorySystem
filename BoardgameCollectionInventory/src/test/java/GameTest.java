@@ -23,4 +23,15 @@ public class GameTest {
         assertEquals(30.00, game.getPrice(), 0.01);
     }
 
+    @Test
+    public void canAddArbitaryMarkup() {
+        game.addToPrice(5.00);
+        assertEquals(35.00, game.getPrice(), 0.01);
+    }
+
+    @Test
+    public void canMarkupByPercentage() {
+        assertEquals(33.00, game.markUpByPercentage(10), 0.01);
+    }
+
 }

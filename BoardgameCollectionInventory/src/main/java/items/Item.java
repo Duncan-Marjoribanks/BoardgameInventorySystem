@@ -18,4 +18,17 @@ public abstract class Item {
     public double getPrice() {
         return this.price;
     }
+
+    public void setPrice(double amount) {
+        this.price = amount;
+    }
+
+    public void addToPrice (double amount) {
+        this.price += amount;
+    }
+
+    public double markUpByPercentage(double percentage) {
+        return (this.getPrice() * (1 + (percentage / 100)));
+    }
+
 }

@@ -32,7 +32,7 @@ public class Collection {
         return this.collection.contains(item);
     }
 
-    public ArrayList <Item> getCollection() {
+    public ArrayList <Item> getEntireCollection() {
         return this.collection;
     }
 

@@ -53,7 +53,7 @@ public class CollectionTest {
 
     @Test
     public void canListAllItemsInCollection() {
-        int numberOfItems = collection.getCollection().size();
+        int numberOfItems = collection.getEntireCollection().size();
         assertEquals(2, numberOfItems);
     }
 
@@ -82,4 +82,7 @@ public class CollectionTest {
     public void canGetTotalBuyPriceOfCollection() {
         assertEquals(31.00, collection.getTotalPrice());
     }
+
+
+
 }

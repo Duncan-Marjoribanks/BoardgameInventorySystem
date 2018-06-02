@@ -22,4 +22,15 @@ public class AccessoryTest {
     public void canGetPrice() {
         assertEquals(1.00, accessory.getPrice(), 0.01);
     }
+
+    @Test
+    public void canAddArbitaryMarkup() {
+        accessory.addToPrice(2.00);
+        assertEquals(3, accessory.getPrice(), 0.01);
+    }
+
+    @Test
+    public void canMarkUpByPercentage() {
+        assertEquals(1.15, accessory.markUpByPercentage(15), 0.01);
+    }
 }

@@ -9,5 +9,4 @@ public class Game extends Item {
         super(name, price);
     }
 
-
 }
