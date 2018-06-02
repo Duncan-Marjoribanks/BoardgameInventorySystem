@@ -4,9 +4,9 @@ import java.util.ArrayList;
 
 public class Collection {
 
-    private ArrayList<Item> collection;
+    private ArrayList <Item> collection;
 
-    public Collection(){
+    public Collection() {
         this.collection = new ArrayList <>();
     }
 
@@ -19,7 +19,9 @@ public class Collection {
     }
 
     public void removeFromCollection(Item item) {
+        if (checkCollectionContains(item)) {
         this.collection.remove(item);
+        }
     }
 
     public void clearCollection() {
@@ -27,10 +29,23 @@ public class Collection {
     }
 
     public boolean checkCollectionContains(Item item) {
-         if (collection.contains(item)){return true;} else {return false;}
+        return this.collection.contains(item);
     }
 
     public ArrayList <Item> getCollection() {
         return this.collection;
     }
+
+//    public Item getItemFromCollection(Item item) {
+//        if (checkCollectionContains(item)) {return item;} else {return null;}
+//    }
+
+    public Item getItemFromCollection(Item item) {
+        if (checkCollectionContains(item)){
+            removeFromCollection(item);
+            return item;
+        }else{return null;}
+
+    }
+
 }
