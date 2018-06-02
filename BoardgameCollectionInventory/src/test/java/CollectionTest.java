@@ -77,4 +77,9 @@ public class CollectionTest {
     public void canNotGetItemFromCollection() {
         assertEquals(null, collection.getItemFromCollection(game2));
     }
+
+    @Test
+    public void canGetTotalBuyPriceOfCollection() {
+        assertEquals(31.00, collection.getTotalPrice());
+    }
 }

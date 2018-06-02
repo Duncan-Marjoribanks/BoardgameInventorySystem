@@ -36,16 +36,22 @@ public class Collection {
         return this.collection;
     }
 
-//    public Item getItemFromCollection(Item item) {
-//        if (checkCollectionContains(item)) {return item;} else {return null;}
-//    }
-
     public Item getItemFromCollection(Item item) {
         if (checkCollectionContains(item)){
             removeFromCollection(item);
             return item;
-        }else{return null;}
+        }
+        else {
+            return null;
+        }
+    }
 
+    public double getTotalPrice() {
+        int total = 0;
+        for (Item item : this.collection){
+            total += item.getPrice();
+        }
+        return total;
     }
 
 }

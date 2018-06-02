@@ -99,8 +99,8 @@
       <file leaf-file-name="Collection.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Collection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+            <state relative-caret-position="555">
+              <caret line="53" column="21" lean-forward="false" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#142#143#0" expanded="true" />
@@ -123,9 +123,10 @@
       <file leaf-file-name="CollectionTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CollectionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-710">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="385">
+              <caret line="82" column="26" lean-forward="false" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#639#640#0" expanded="true" />
                 <element signature="e#700#701#0" expanded="true" />
                 <element signature="e#1308#1309#0" expanded="true" />
@@ -134,6 +135,8 @@
                 <element signature="e#1831#1832#0" expanded="true" />
                 <element signature="e#2037#2038#0" expanded="true" />
                 <element signature="e#2112#2113#0" expanded="true" />
+                <element signature="e#2175#2176#0" expanded="true" />
+                <element signature="e#2238#2239#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -448,8 +451,8 @@
         <option value="$PROJECT_DIR$/src/main/java/items/games/Game.java" />
         <option value="$PROJECT_DIR$/src/main/java/items/accessories/Accessory.java" />
         <option value="$PROJECT_DIR$/src/test/java/AccessoryTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Collection.java" />
         <option value="$PROJECT_DIR$/src/test/java/CollectionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Collection.java" />
       </list>
     </option>
   </component>
@@ -725,9 +728,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_BoardgameCollectionInventory_test - 2018.06.02 at 10h 26m 57s.xml">
-      <configuration name="All in BoardgameCollectionInventory_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_BoardgameCollectionInventory_test - 2018.06.02 at 10h 28m 03s.xml">
       <configuration name="All in BoardgameCollectionInventory_test" configurationId="JUnit" />
     </history-entry>
@@ -753,6 +753,9 @@
       <configuration name="All in BoardgameCollectionInventory_test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="CollectionTest_canNotGetItemFromCollection - 2018.06.02 at 10h 57m 27s.xml">
+      <configuration name="CollectionTest.canNotGetItemFromCollection" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CollectionTest_canNotGetItemFromCollection - 2018.06.02 at 11h 18m 02s.xml">
       <configuration name="CollectionTest.canNotGetItemFromCollection" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -875,9 +878,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CollectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-710">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="385">
+          <caret line="82" column="26" lean-forward="false" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#639#640#0" expanded="true" />
             <element signature="e#700#701#0" expanded="true" />
             <element signature="e#1308#1309#0" expanded="true" />
@@ -886,14 +890,16 @@
             <element signature="e#1831#1832#0" expanded="true" />
             <element signature="e#2037#2038#0" expanded="true" />
             <element signature="e#2112#2113#0" expanded="true" />
+            <element signature="e#2175#2176#0" expanded="true" />
+            <element signature="e#2238#2239#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Collection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        <state relative-caret-position="555">
+          <caret line="53" column="21" lean-forward="false" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#142#143#0" expanded="true" />
