@@ -1,10 +1,11 @@
+import enums.GameGenreTypes;
 import items.accessories.Accessory;
 import items.games.Game;
 import org.junit.Before;
 import org.junit.Test;
 
-
 import static junit.framework.TestCase.assertEquals;
+
 
 public class CollectionTest {
 
@@ -15,8 +16,8 @@ public class CollectionTest {
     @Before
     public void before() {
         collection = new Collection();
-        game = new Game("Settlers of Catan", 30.00);
-        game2 = new Game("Dominion", 35.00);
+        game = new Game("Settlers of Catan", 30.00, GameGenreTypes.TRADING);
+        game2 = new Game("Dominion", 35.00, GameGenreTypes.CARD_BASED);
         accessory = new Accessory("Dice", 1.00);
         collection.addToCollection(game);
         collection.addToCollection(accessory);

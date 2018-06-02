@@ -1,3 +1,4 @@
+import enums.GameGenreTypes;
 import items.games.Game;
 import org.junit.Before;
 import org.junit.Test;
@@ -10,7 +11,7 @@ public class GameTest {
 
     @Before
     public void before() {
-        game = new Game("Settlers of Catan", 30.00);
+        game = new Game("Settlers of Catan", 30.00, GameGenreTypes.TRADING);
     }
 
     @Test
@@ -32,6 +33,11 @@ public class GameTest {
     @Test
     public void canMarkupByPercentage() {
         assertEquals(33.00, game.markUpByPercentage(10), 0.01);
+    }
+
+    @Test
+    public void canGetGenre() {
+        assertEquals(GameGenreTypes.TRADING, game.getGenre());
     }
 
 
