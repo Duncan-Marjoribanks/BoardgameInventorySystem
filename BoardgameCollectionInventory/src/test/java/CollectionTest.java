@@ -83,6 +83,10 @@ public class CollectionTest {
         assertEquals(31.00, collection.getTotalPrice());
     }
 
+    @Test
+    public void canCountItemsBytype() {
+        assertEquals(1, collection.countNumberOfSpecificItems(game));
+    }
 
 
 }

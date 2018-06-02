@@ -20,7 +20,7 @@ public class Collection {
 
     public void removeFromCollection(Item item) {
         if (checkCollectionContains(item)) {
-        this.collection.remove(item);
+            this.collection.remove(item);
         }
     }
 
@@ -37,21 +37,30 @@ public class Collection {
     }
 
     public Item getItemFromCollection(Item item) {
-        if (checkCollectionContains(item)){
+        if (checkCollectionContains(item)) {
             removeFromCollection(item);
             return item;
-        }
-        else {
+        } else {
             return null;
         }
     }
 
     public double getTotalPrice() {
         int total = 0;
-        for (Item item : this.collection){
+        for (Item item : this.collection) {
             total += item.getPrice();
         }
         return total;
+    }
+
+    public int countNumberOfSpecificItems(Item item) {
+        int number = 0;
+        for (Item thing : this.collection) {
+            if (thing == item) {
+                number++;
+            }
+        }
+        return number;
     }
 
 }
