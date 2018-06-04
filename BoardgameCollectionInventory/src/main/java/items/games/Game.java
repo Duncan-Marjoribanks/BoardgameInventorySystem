@@ -78,6 +78,10 @@ public class Game extends Item {
         this.favourite = false;
     }
 
+    public double getTotalSellingPrice() {
+        return this.markUpByPercentage(idealMarkup) + this.getShippingCost();
+    }
+
 
 
 
