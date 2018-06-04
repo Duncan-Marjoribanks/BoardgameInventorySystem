@@ -17,7 +17,7 @@ public class CollectionTest {
     public void before() {
         collection = new Collection();
         game = new Game("Settlers of Catan", 30.00, GameGenreTypes.TRADING);
-        game2 = new Game("Dominion", 35.00, GameGenreTypes.CARD_BASED);
+        game2 = new Game("Dominion", 35.00, GameGenreTypes.DECK_BUILDER);
         accessory = new Accessory("Dice", 1.00);
         collection.addToCollection(game);
         collection.addToCollection(accessory);
@@ -41,7 +41,7 @@ public class CollectionTest {
     }
 
     @Test
-    public void canNotRemoveItemFromCollectionBeyondZero() {
+    public void canNotRemoveItemIfNotInCollection() {
         collection.removeFromCollection(game);
         collection.removeFromCollection(game);
         assertEquals(1, collection.countCollection());
@@ -87,6 +87,12 @@ public class CollectionTest {
     @Test
     public void canCountItemsBytype() {
         assertEquals(1, collection.countNumberOfSpecificItems(game));
+    }
+
+    @Test
+    public void canGetTotalPriceForGroupOfTheSameItems() {
+        collection.addToCollection(game);
+        assertEquals(60.00, collection.getTotalPriceForGroupOfTheSameItems(game), 0.01);
     }
 
 

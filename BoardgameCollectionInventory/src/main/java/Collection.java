@@ -45,7 +45,7 @@ public class Collection {
     }
 
     public double getTotalPrice() {
-        int total = 0;
+        double total = 0.00;
         for (Item item : this.collection) {
             total += item.getPrice();
         }
@@ -54,12 +54,24 @@ public class Collection {
 
     public int countNumberOfSpecificItems(Item item) {
         int number = 0;
-        for (Item thing : this.collection) {
-            if (thing == item) {
+        for (Item eachItem : this.collection) {
+            if (eachItem == item) {
                 number++;
             }
         }
         return number;
+    }
+
+    public double getTotalPriceForGroupOfTheSameItems(Item item) {
+        double total = 0;
+        int number = 0;
+        for (Item eachItem : this.collection) {
+            if (eachItem == item) {
+                number ++;
+                total += item.getPrice();
+            }
+        }
+                return total;
     }
 
 }
