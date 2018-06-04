@@ -7,14 +7,15 @@ import static junit.framework.TestCase.assertEquals;
 
 public class GameCollectionTest {
     GameCollection gameCollection;
-    Game game, game2, game3;
+    Game game, game2, game3, game4;
 
     @Before
     public void before() {
         gameCollection = new GameCollection();
         game = new Game("Settlers of Catan", 30.00, 5,  GameGenreTypes.TRADING, 32.00, 10, false);
-        game2 = new Game("Dominion", 35.00, 8, GameGenreTypes.DECK_BUILDER, 30, 15, false);
-        game3 = new Game("Coup", 12.00, 3, GameGenreTypes.BLUFFING, 18, 10, true);
+        game2 = new Game("Dominion", 35.00, 8, GameGenreTypes.DECK_BUILDER, 30.00, 15, false);
+        game3 = new Game("Coup", 12.00, 3, GameGenreTypes.BLUFFING, 18.00, 10, true);
+        game4 = new Game("Zombicide", 30.00, 10, GameGenreTypes.COOPERATIVE, 45.00, 10, false);
         gameCollection.addToCollection(game);
         gameCollection.addToCollection(game2);
 
@@ -90,6 +91,13 @@ public class GameCollectionTest {
     public void canGetTotalPriceForGroupOfTheSameItems() {
         gameCollection.addToCollection(game);
         assertEquals(60.00, gameCollection.getTotalPriceForGroupOfTheSameItems(game), 0.01);
+    }
+
+    @Test
+    public void canCalculateTotalPotentialProfit() {
+        gameCollection.addToCollection(game3);
+        gameCollection.addToCollection(game4);
+        assertEquals(15.00, gameCollection.calculateTotalPotentialProfit());
     }
 
 

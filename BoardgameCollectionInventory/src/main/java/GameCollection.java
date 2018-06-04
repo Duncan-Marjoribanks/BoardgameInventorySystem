@@ -1,12 +1,14 @@
+import items.Item;
 import items.games.Game;
-
-import java.util.ArrayList;
 
 public class GameCollection extends Collection{
 
-    private ArrayList<Game> gameCollection;
-
-    public GameCollection() {
-        this.gameCollection = new ArrayList <>();
+    public double calculateTotalPotentialProfit() {
+        double total = 0.00;
+        for (Item item : this.collection) {
+            Game game = (Game)item;
+            total += game.calculateProfit();
+        }
+        return total;
     }
 }

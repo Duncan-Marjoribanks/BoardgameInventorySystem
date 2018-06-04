@@ -83,10 +83,9 @@ public class Game extends Item {
     }
 
     public double calculateProfit() {
-        return this.marketValue - this.getBuyPrice();
+        if (checkIfSellable()){
+        return this.marketValue - this.getBuyPrice();}
+        return 0.00;
     }
-
-
-
 
 }

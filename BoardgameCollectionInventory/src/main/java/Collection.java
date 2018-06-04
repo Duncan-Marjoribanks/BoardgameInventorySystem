@@ -3,7 +3,7 @@ import java.util.ArrayList;
 
 public abstract class Collection {
 
-    private ArrayList <Item> collection;
+    protected ArrayList <Item> collection;
 
     protected Collection() {
         this.collection = new ArrayList <>();
