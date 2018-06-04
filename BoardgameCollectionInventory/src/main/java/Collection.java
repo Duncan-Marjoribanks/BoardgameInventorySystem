@@ -69,7 +69,7 @@ public abstract class Collection {
                 total += item.getBuyPrice();
             }
         }
-                return total;
+        return total;
     }
 
 }
