@@ -46,6 +46,12 @@ public class GameTest {
     public void canGetGenre() {
         assertEquals(GameGenreTypes.TRADING, game.getGenre());
     }
+    
+    @Test
+    public void canSetGenre() {
+        game.setGenre(GameGenreTypes.BLUFFING);
+        assertEquals(GameGenreTypes.BLUFFING, game.getGenre());
+    }
 
     @Test
     public void canGetMarketValue() {
@@ -71,6 +77,13 @@ public class GameTest {
     }
 
     @Test
+    public void canMakeNotFavourite() {
+        game.setFavouriteTrue();
+        game.setFavouriteFalse();
+        assertEquals(false, game.getFavourite());
+    }
+
+    @Test
     public void canGetShippingCost() {
         assertEquals(5.00, game.getShippingCost());
     }
@@ -78,6 +91,11 @@ public class GameTest {
     @Test
     public void canGetTotalSellPrice() {
         assertEquals(38.00, game.getTotalSellingPrice());
+    }
+
+    @Test
+    public void canGetWeight() {
+        assertEquals(5, game.getWeight());
     }
 
 
