@@ -10,7 +10,7 @@ public class AccessoryTest {
 
     @Before
     public void before() {
-        accessory = new Accessory("Dice - D6", 1.00);
+        accessory = new Accessory("Dice - D6", 1.00, 1);
     }
 
     @Test

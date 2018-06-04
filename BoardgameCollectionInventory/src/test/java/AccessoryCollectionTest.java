@@ -12,9 +12,9 @@ public class AccessoryCollectionTest {
     @Before
     public void before() {
         accessoryCollection = new AccessoryCollection();
-        accessory = new Accessory("Dice", 1.00);
-        accessory2 = new Accessory("shaker cup", 2.00);
-        accessory3 = new Accessory("measuring tape", 5.00);
+        accessory = new Accessory("Dice", 1.00, 1);
+        accessory2 = new Accessory("shaker cup", 2.00, 1);
+        accessory3 = new Accessory("measuring tape", 5.00, 2);
         accessoryCollection.addToCollection(accessory);
         accessoryCollection.addToCollection(accessory2);
     }

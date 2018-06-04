@@ -10,6 +10,7 @@ public abstract class Item {
     public Item(String name, double buyPrice, int weight) {
         this.name = name;
         this.buyPrice = buyPrice;
+        this.weight = weight;
 
     }
 
@@ -19,6 +20,10 @@ public abstract class Item {
 
     public double getBuyPrice() {
         return this.buyPrice;
+    }
+
+    public int getWeight() {
+        return this.weight;
     }
 
     private void setPrice(double amount) {
@@ -31,6 +36,18 @@ public abstract class Item {
 
     public double markUpByPercentage(double percentage) {
         return (this.getBuyPrice() * (1 + (percentage / 100)));
+    }
+
+    public double getShippingCost() {
+        if (weight <= 4) {
+            return 3.00;
+        }
+        if (weight <= 8) {
+            return 5.00;
+        }
+        if (weight <= 12) {
+            return 7.50;
+        } else return 20.00;
     }
 
 }

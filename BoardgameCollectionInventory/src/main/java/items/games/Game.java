@@ -13,11 +13,12 @@ public class Game extends Item {
 
     public Game(String name,
                 double buyPrice,
+                int weight,
                 GameGenreTypes genre,
                 double marketValue,
                 int idealMarkup,
                 boolean favourite) {
-        super(name, buyPrice);
+        super(name, buyPrice, weight);
         this.genre = genre;
         this.marketValue = marketValue;
         this.idealMarkup = idealMarkup;

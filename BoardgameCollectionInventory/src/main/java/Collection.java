@@ -5,7 +5,7 @@ public abstract class Collection {
 
     private ArrayList <Item> collection;
 
-    public Collection() {
+    protected Collection() {
         this.collection = new ArrayList <>();
     }
 
@@ -31,7 +31,7 @@ public abstract class Collection {
         return this.collection.contains(item);
     }
 
-    public ArrayList <Item> getEntireCollection() {
+    public ArrayList<Item> getEntireCollection() {
         return this.collection;
     }
 
@@ -64,10 +64,8 @@ public abstract class Collection {
 
     public double getTotalPriceForGroupOfTheSameItems(Item item) {
         double total = 0;
-        int number = 0;
         for (Item eachItem : this.collection) {
             if (eachItem == item) {
-                number ++;
                 total += item.getBuyPrice();
             }
         }
