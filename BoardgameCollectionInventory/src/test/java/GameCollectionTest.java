@@ -12,9 +12,9 @@ public class GameCollectionTest {
     @Before
     public void before() {
         gameCollection = new GameCollection();
-        game = new Game("Settlers of Catan", 30.00, GameGenreTypes.TRADING);
-        game2 = new Game("Dominion", 35.00, GameGenreTypes.DECK_BUILDER);
-        game3 = new Game("Coup", 12.00, GameGenreTypes.BLUFFING);
+        game = new Game("Settlers of Catan", 30.00, GameGenreTypes.TRADING, 32.00, 10, false);
+        game2 = new Game("Dominion", 35.00, GameGenreTypes.DECK_BUILDER, 30, 15, false);
+        game3 = new Game("Coup", 12.00, GameGenreTypes.BLUFFING, 18, 10, true);
         gameCollection.addToCollection(game);
         gameCollection.addToCollection(game2);
 

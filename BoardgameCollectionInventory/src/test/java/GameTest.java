@@ -11,7 +11,7 @@ public class GameTest {
 
     @Before
     public void before() {
-        game = new Game("Settlers of Catan", 30.00, GameGenreTypes.TRADING);
+        game = new Game("Settlers of Catan", 30.00, GameGenreTypes.TRADING, 33.00, 10, false);
     }
 
     @Test
@@ -44,6 +44,16 @@ public class GameTest {
     public void canSetPrice() {
         game.setPrice(40.00);
         assertEquals(40.00, game.getPrice(), 0.01);
+    }
+
+    @Test
+    public void canGetMarketValue() {
+        assertEquals(33.00, game.getMarketValue());
+    }
+
+    @Test
+    public void canCheckIfSellable() {
+        assertEquals(true, game.isSellable());
     }
 
 

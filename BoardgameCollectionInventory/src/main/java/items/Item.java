@@ -4,11 +4,14 @@ public abstract class Item {
 
     private String name;
     private double price;
+    private boolean sellable;
 
 
     public Item(String name, double price) {
         this.name = name;
         this.price = price;
+        this.sellable = false;
+
     }
 
     public String getName() {
@@ -17,6 +20,18 @@ public abstract class Item {
 
     public double getPrice() {
         return this.price;
+    }
+
+    public boolean isSellable() {
+        return this.sellable;
+    }
+
+    public void makeSellable() {
+        this.sellable = true;
+    }
+
+    public void makeNotSellable() {
+        this.sellable = false;
     }
 
     public void setPrice(double amount) {
