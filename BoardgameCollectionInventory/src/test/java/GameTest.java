@@ -40,6 +40,11 @@ public class GameTest {
         assertEquals(GameGenreTypes.TRADING, game.getGenre());
     }
 
+    @Test
+    public void canSetPrice() {
+        game.setPrice(40.00);
+        assertEquals(40.00, game.getPrice(), 0.01);
+    }
 
 
 }

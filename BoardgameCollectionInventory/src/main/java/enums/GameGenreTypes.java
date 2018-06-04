@@ -6,6 +6,7 @@ public enum GameGenreTypes {
     ECONOMIC,
     DECK_BUILDER,
     COOPERATIVE,
-    TRADING
+    TRADING,
+    BLUFFING
 
 }

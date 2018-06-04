@@ -1,7 +1,7 @@
 import items.Item;
 import java.util.ArrayList;
 
-public class Collection {
+public abstract class Collection {
 
     private ArrayList <Item> collection;
 
