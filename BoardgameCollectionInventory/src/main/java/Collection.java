@@ -47,7 +47,7 @@ public abstract class Collection {
     public double getTotalPrice() {
         double total = 0.00;
         for (Item item : this.collection) {
-            total += item.getPrice();
+            total += item.getBuyPrice();
         }
         return total;
     }
@@ -68,7 +68,7 @@ public abstract class Collection {
         for (Item eachItem : this.collection) {
             if (eachItem == item) {
                 number ++;
-                total += item.getPrice();
+                total += item.getBuyPrice();
             }
         }
                 return total;

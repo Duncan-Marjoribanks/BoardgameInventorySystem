@@ -9,20 +9,36 @@ public class Game extends Item {
     private double marketValue;
     private int idealMarkup;
     private boolean favourite;
+    private boolean sellable;
 
     public Game(String name,
-                double price,
+                double buyPrice,
                 GameGenreTypes genre,
                 double marketValue,
                 int idealMarkup,
                 boolean favourite) {
-        super(name, price);
+        super(name, buyPrice);
         this.genre = genre;
         this.marketValue = marketValue;
         this.idealMarkup = idealMarkup;
         this.favourite = favourite;
+        this.sellable = false;
+    }
+
+    public boolean checkIfSellable() {
         if(!this.favourite && (marketValue >= this.markUpByPercentage(this.idealMarkup)))
         {this.makeSellable();}
+        else
+        {this.makeNotSellable();}
+        return this.sellable;
+    }
+
+    private void makeSellable() {
+        this.sellable = true;
+    }
+
+    private void makeNotSellable() {
+        this.sellable = false;
     }
 
     public GameGenreTypes getGenre() {

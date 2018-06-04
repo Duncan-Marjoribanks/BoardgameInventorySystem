@@ -67,7 +67,7 @@ public class AccessoryCollectionTest {
 
     @Test
     public void canGetItemPriceFromCollection() {
-        assertEquals(1.00, accessoryCollection.getItemFromCollection(accessory).getPrice());
+        assertEquals(1.00, accessoryCollection.getItemFromCollection(accessory).getBuyPrice());
     }
 
     @Test

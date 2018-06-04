@@ -21,13 +21,13 @@ public class GameTest {
 
     @Test
     public void canGetPrice() {
-        assertEquals(30.00, game.getPrice(), 0.01);
+        assertEquals(30.00, game.getBuyPrice(), 0.01);
     }
 
     @Test
     public void canAddArbitaryMarkup() {
         game.addToPrice(5.00);
-        assertEquals(35.00, game.getPrice(), 0.01);
+        assertEquals(35.00, game.getBuyPrice(), 0.01);
     }
 
     @Test
@@ -36,14 +36,15 @@ public class GameTest {
     }
 
     @Test
-    public void canGetGenre() {
-        assertEquals(GameGenreTypes.TRADING, game.getGenre());
+    public void canSetIdealMarkUp() {
+        game.setIdealMarkup(25);
+        assertEquals(25, game.getIdealMarkup());
+        assertEquals(false, game.checkIfSellable());
     }
 
     @Test
-    public void canSetPrice() {
-        game.setPrice(40.00);
-        assertEquals(40.00, game.getPrice(), 0.01);
+    public void canGetGenre() {
+        assertEquals(GameGenreTypes.TRADING, game.getGenre());
     }
 
     @Test
@@ -53,7 +54,20 @@ public class GameTest {
 
     @Test
     public void canCheckIfSellable() {
-        assertEquals(true, game.isSellable());
+        assertEquals(true, game.checkIfSellable());
+    }
+
+    @Test
+    public void canCheckIfSellableIfTooCheap() {
+        game.setMarketValue(20.00);
+        assertEquals(false, game.checkIfSellable());
+    }
+
+    @Test
+    public void canMakeFavorite() {
+        game.setFavouriteTrue();
+        assertEquals(true, game.getFavourite());
+        assertEquals(false, game.checkIfSellable());
     }
 
 

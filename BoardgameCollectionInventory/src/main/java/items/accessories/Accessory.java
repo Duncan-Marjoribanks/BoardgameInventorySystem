@@ -4,8 +4,8 @@ import items.Item;
 
 public class Accessory extends Item {
 
-    public Accessory(String name, double price) {
-        super(name, price);
+    public Accessory(String name, double buyPrice) {
+        super(name, buyPrice);
     }
 
 

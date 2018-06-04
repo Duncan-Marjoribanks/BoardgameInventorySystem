@@ -68,7 +68,7 @@ public class GameCollectionTest {
 
     @Test
     public void canGetItemPriceFromCollection() {
-        assertEquals(30.00, gameCollection.getItemFromCollection(game).getPrice());
+        assertEquals(30.00, gameCollection.getItemFromCollection(game).getBuyPrice());
     }
 
     @Test

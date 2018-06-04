@@ -19,14 +19,14 @@ public class AccessoryTest {
     }
 
     @Test
-    public void canGetPrice() {
-        assertEquals(1.00, accessory.getPrice(), 0.01);
+    public void canGetBuyPrice() {
+        assertEquals(1.00, accessory.getBuyPrice(), 0.01);
     }
 
     @Test
     public void canAddArbitaryMarkup() {
         accessory.addToPrice(2.00);
-        assertEquals(3, accessory.getPrice(), 0.01);
+        assertEquals(3, accessory.getBuyPrice(), 0.01);
     }
 
     @Test

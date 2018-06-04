@@ -3,14 +3,13 @@ package items;
 public abstract class Item {
 
     private String name;
-    private double price;
-    private boolean sellable;
+    private double buyPrice;
+    private int weight;
 
 
-    public Item(String name, double price) {
+    public Item(String name, double buyPrice, int weight) {
         this.name = name;
-        this.price = price;
-        this.sellable = false;
+        this.buyPrice = buyPrice;
 
     }
 
@@ -18,32 +17,20 @@ public abstract class Item {
         return this.name;
     }
 
-    public double getPrice() {
-        return this.price;
+    public double getBuyPrice() {
+        return this.buyPrice;
     }
 
-    public boolean isSellable() {
-        return this.sellable;
-    }
-
-    public void makeSellable() {
-        this.sellable = true;
-    }
-
-    public void makeNotSellable() {
-        this.sellable = false;
-    }
-
-    public void setPrice(double amount) {
-        this.price = amount;
+    private void setPrice(double amount) {
+        this.buyPrice = amount;
     }
 
     public void addToPrice (double amount) {
-        this.price += amount;
+        this.buyPrice += amount;
     }
 
     public double markUpByPercentage(double percentage) {
-        return (this.getPrice() * (1 + (percentage / 100)));
+        return (this.getBuyPrice() * (1 + (percentage / 100)));
     }
 
 }
