@@ -13,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/BoardgameCollectionInventory$All_in_BoardgameCollectionInventory_test.coverage" NAME="All in BoardgameCollectionInventory_test Coverage Results" MODIFIED="1528120563123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/BoardgameCollectionInventory$All_in_BoardgameCollectionInventory_test.coverage" NAME="All in BoardgameCollectionInventory_test Coverage Results" MODIFIED="1528120751303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/BoardgameCollectionInventory$All_in_BoardgameCollectionInventory_test__1_.coverage" NAME="All in BoardgameCollectionInventory_test (1) Coverage Results" MODIFIED="1528103470442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/BoardgameCollectionInventory$GameCollectionTest.coverage" NAME="GameCollectionTest Coverage Results" MODIFIED="1528108306811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/BoardgameCollectionInventory$GameTest_canSetPrice.coverage" NAME="GameTest.canSetPrice Coverage Results" MODIFIED="1528104561377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -117,25 +117,19 @@
       <file leaf-file-name="GameTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/GameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="48" column="4" lean-forward="true" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+            <state relative-caret-position="430">
+              <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
               <folding>
-                <element signature="e#235#236#0" expanded="true" />
-                <element signature="e#339#340#0" expanded="true" />
-                <element signature="e#747#748#0" expanded="true" />
-                <element signature="e#817#818#0" expanded="true" />
-                <element signature="e#1050#1051#0" expanded="true" />
-                <element signature="e#1119#1120#0" expanded="true" />
-                <element signature="e#1333#1334#0" expanded="true" />
-                <element signature="e#1391#1392#0" expanded="true" />
-                <element signature="e#1441#1442#0" expanded="true" />
-                <element signature="e#1499#1500#0" expanded="true" />
-                <element signature="e#2066#2067#0" expanded="true" />
-                <element signature="e#2124#2125#0" expanded="true" />
-                <element signature="e#2176#2177#0" expanded="true" />
-                <element signature="e#2240#2241#0" expanded="true" />
-                <element signature="e#2284#2285#0" expanded="true" />
-                <element signature="e#2333#2334#0" expanded="true" />
+                <element signature="e#844#845#0" expanded="true" />
+                <element signature="e#914#915#0" expanded="true" />
+                <element signature="e#1147#1148#0" expanded="true" />
+                <element signature="e#1216#1217#0" expanded="true" />
+                <element signature="e#1426#1427#0" expanded="true" />
+                <element signature="e#1484#1485#0" expanded="true" />
+                <element signature="e#1534#1535#0" expanded="true" />
+                <element signature="e#1592#1593#0" expanded="true" />
+                <element signature="e#2490#2491#0" expanded="true" />
+                <element signature="e#2539#2540#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -144,8 +138,8 @@
       <file leaf-file-name="Item.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/items/Item.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="462">
+              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding>
                 <element signature="e#312#313#0" expanded="true" />
                 <element signature="e#344#345#0" expanded="true" />
@@ -153,8 +147,10 @@
                 <element signature="e#415#416#0" expanded="true" />
                 <element signature="e#445#446#0" expanded="true" />
                 <element signature="e#479#480#0" expanded="true" />
-                <element signature="e#523#524#0" expanded="true" />
-                <element signature="e#561#562#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
+                <element signature="e#564#565#0" expanded="true" />
+                <element signature="e#623#624#0" expanded="true" />
+                <element signature="e#693#694#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -526,12 +522,12 @@
         <option value="$PROJECT_DIR$/src/main/java/AccessoryCollection.java" />
         <option value="$PROJECT_DIR$/src/main/java/enums/GameGenreTypes.java" />
         <option value="$PROJECT_DIR$/src/test/java/GameCollectionTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/items/Item.java" />
         <option value="$PROJECT_DIR$/src/main/java/items/accessories/Accessory.java" />
         <option value="$PROJECT_DIR$/src/test/java/AccessoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/AccessoryCollectionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Collection.java" />
         <option value="$PROJECT_DIR$/src/main/java/items/games/Game.java" />
+        <option value="$PROJECT_DIR$/src/main/java/items/Item.java" />
         <option value="$PROJECT_DIR$/src/test/java/GameTest.java" />
       </list>
     </option>
@@ -869,27 +865,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_BoardgameCollectionInventory_test - 2018.06.04 at 14h 38m 14s.xml">
-      <configuration name="All in BoardgameCollectionInventory_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_BoardgameCollectionInventory_test - 2018.06.04 at 14h 42m 19s.xml">
-      <configuration name="All in BoardgameCollectionInventory_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_BoardgameCollectionInventory_test - 2018.06.04 at 14h 42m 29s.xml">
-      <configuration name="All in BoardgameCollectionInventory_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_BoardgameCollectionInventory_test - 2018.06.04 at 14h 46m 38s.xml">
-      <configuration name="All in BoardgameCollectionInventory_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_BoardgameCollectionInventory_test - 2018.06.04 at 14h 47m 13s.xml">
-      <configuration name="All in BoardgameCollectionInventory_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_BoardgameCollectionInventory_test - 2018.06.04 at 14h 48m 17s.xml">
-      <configuration name="All in BoardgameCollectionInventory_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_BoardgameCollectionInventory_test - 2018.06.04 at 14h 48m 21s.xml">
-      <configuration name="All in BoardgameCollectionInventory_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_BoardgameCollectionInventory_test - 2018.06.04 at 14h 55m 49s.xml">
       <configuration name="All in BoardgameCollectionInventory_test" configurationId="JUnit" />
     </history-entry>
@@ -897,6 +872,27 @@
       <configuration name="All in BoardgameCollectionInventory_test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_BoardgameCollectionInventory_test - 2018.06.04 at 14h 57m 20s.xml">
+      <configuration name="All in BoardgameCollectionInventory_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_BoardgameCollectionInventory_test - 2018.06.04 at 14h 57m 54s.xml">
+      <configuration name="All in BoardgameCollectionInventory_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_BoardgameCollectionInventory_test - 2018.06.04 at 14h 58m 19s.xml">
+      <configuration name="All in BoardgameCollectionInventory_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_BoardgameCollectionInventory_test - 2018.06.04 at 14h 58m 24s.xml">
+      <configuration name="All in BoardgameCollectionInventory_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_BoardgameCollectionInventory_test - 2018.06.04 at 14h 59m 09s.xml">
+      <configuration name="All in BoardgameCollectionInventory_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_BoardgameCollectionInventory_test - 2018.06.04 at 14h 59m 12s.xml">
+      <configuration name="All in BoardgameCollectionInventory_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_BoardgameCollectionInventory_test - 2018.06.04 at 15h 03m 26s.xml">
+      <configuration name="All in BoardgameCollectionInventory_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_BoardgameCollectionInventory_test - 2018.06.04 at 15h 04m 26s.xml">
       <configuration name="All in BoardgameCollectionInventory_test" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -971,7 +967,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1225,23 +1221,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/items/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#445#446#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#561#562#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/items/games/Game.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="739">
@@ -1271,27 +1250,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/items/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <element signature="e#312#313#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/GameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="48" column="4" lean-forward="true" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+        <state relative-caret-position="430">
+          <caret line="105" column="0" lean-forward="true" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
           <folding>
-            <element signature="e#235#236#0" expanded="true" />
-            <element signature="e#339#340#0" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
-            <element signature="e#1050#1051#0" expanded="true" />
-            <element signature="e#1119#1120#0" expanded="true" />
-            <element signature="e#1333#1334#0" expanded="true" />
-            <element signature="e#1391#1392#0" expanded="true" />
-            <element signature="e#1441#1442#0" expanded="true" />
-            <element signature="e#1499#1500#0" expanded="true" />
-            <element signature="e#2066#2067#0" expanded="true" />
-            <element signature="e#2124#2125#0" expanded="true" />
-            <element signature="e#2176#2177#0" expanded="true" />
-            <element signature="e#2240#2241#0" expanded="true" />
-            <element signature="e#2284#2285#0" expanded="true" />
-            <element signature="e#2333#2334#0" expanded="true" />
+            <element signature="e#844#845#0" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
+            <element signature="e#1147#1148#0" expanded="true" />
+            <element signature="e#1216#1217#0" expanded="true" />
+            <element signature="e#1426#1427#0" expanded="true" />
+            <element signature="e#1484#1485#0" expanded="true" />
+            <element signature="e#1534#1535#0" expanded="true" />
+            <element signature="e#1592#1593#0" expanded="true" />
+            <element signature="e#2490#2491#0" expanded="true" />
+            <element signature="e#2539#2540#0" expanded="true" />
           </folding>
         </state>
       </provider>

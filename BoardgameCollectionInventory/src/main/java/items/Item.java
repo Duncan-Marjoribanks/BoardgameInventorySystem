@@ -26,10 +26,6 @@ public abstract class Item {
         return this.weight;
     }
 
-    private void setPrice(double amount) {
-        this.buyPrice = amount;
-    }
-
     public void addToPrice (double amount) {
         this.buyPrice += amount;
     }
@@ -39,15 +35,13 @@ public abstract class Item {
     }
 
     public double getShippingCost() {
-        if (weight <= 4) {
+        if (weight <= 4)
             return 3.00;
-        }
-        if (weight <= 8) {
+        if (weight <= 8)
             return 5.00;
-        }
-        if (weight <= 12) {
+        if (weight <= 12)
             return 7.50;
-        } else return 20.00;
+        else return 20.00;
     }
 
 }

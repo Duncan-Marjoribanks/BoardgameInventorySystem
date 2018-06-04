@@ -7,11 +7,12 @@ import static junit.framework.TestCase.assertEquals;
 
 public class GameTest {
 
-    Game game;
+    Game game, game2;
 
     @Before
     public void before() {
         game = new Game("Settlers of Catan", 30.00, 5, GameGenreTypes.TRADING, 33.00, 10, false);
+        game2 = new Game("Dominion", 35, 28, GameGenreTypes.DECK_BUILDER, 35, 15, false);
     }
 
     @Test
@@ -46,7 +47,7 @@ public class GameTest {
     public void canGetGenre() {
         assertEquals(GameGenreTypes.TRADING, game.getGenre());
     }
-    
+
     @Test
     public void canSetGenre() {
         game.setGenre(GameGenreTypes.BLUFFING);
@@ -86,11 +87,13 @@ public class GameTest {
     @Test
     public void canGetShippingCost() {
         assertEquals(5.00, game.getShippingCost());
+        assertEquals(20.00, game2.getShippingCost());
     }
 
     @Test
     public void canGetTotalSellPrice() {
         assertEquals(38.00, game.getTotalSellingPrice());
+        assertEquals(60.25, game2.getTotalSellingPrice());
     }
 
     @Test
