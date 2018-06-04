@@ -70,5 +70,12 @@ public class GameTest {
         assertEquals(false, game.checkIfSellable());
     }
 
+    @Test
+    public void canGetShippingCost() {
+        assertEquals(5.00, game.getShippingCost());
+    }
+
+    
+
 
 }
