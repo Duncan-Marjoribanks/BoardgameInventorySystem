@@ -82,6 +82,10 @@ public class Game extends Item {
         return this.markUpByPercentage(idealMarkup) + this.getShippingCost();
     }
 
+    public double calculateProfit() {
+        return this.marketValue - this.getBuyPrice();
+    }
+
 
 
 

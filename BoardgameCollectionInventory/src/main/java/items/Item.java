@@ -6,12 +6,10 @@ public abstract class Item {
     private double buyPrice;
     private int weight;
 
-
     public Item(String name, double buyPrice, int weight) {
         this.name = name;
         this.buyPrice = buyPrice;
         this.weight = weight;
-
     }
 
     public String getName() {

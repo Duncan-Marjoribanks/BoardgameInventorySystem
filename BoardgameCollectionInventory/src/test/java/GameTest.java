@@ -101,5 +101,10 @@ public class GameTest {
         assertEquals(5, game.getWeight());
     }
 
+    @Test
+    public void canCalculateProfitFromSale() {
+        assertEquals(3.00, game.calculateProfit());
+    }
+
 
 }

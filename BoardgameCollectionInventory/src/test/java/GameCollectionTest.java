@@ -92,4 +92,6 @@ public class GameCollectionTest {
         assertEquals(60.00, gameCollection.getTotalPriceForGroupOfTheSameItems(game), 0.01);
     }
 
+
+
 }
