@@ -3,10 +3,13 @@ package items.games;
 import enums.GameGenreTypes;
 import items.Item;
 
+
 public class Game extends Item {
 
     private GameGenreTypes genre;
 
+
+    private int id;
 
     public Game(
             String name,

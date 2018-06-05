@@ -33,7 +33,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="47460f04-af10-431c-a67a-c00698f80401">
-      <console name="boardGames" type="STANDARD"><![CDATA[SELECT * FROM testtable;]]></console>
+      <console name="boardGames" type="STANDARD" />
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
