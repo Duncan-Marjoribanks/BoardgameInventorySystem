@@ -18,7 +18,7 @@ public class GameCollectionTest {
                 5,
                 32.00,
                 10,
-                false, 
+                false,
                 GameGenreTypes.TRADING);
         game2 = new Game(
                 "Dominion",
@@ -127,17 +127,14 @@ public class GameCollectionTest {
         assertEquals(21.00, gameCollection.calculateTotalPotentialProfit());
     }
 
-
     @Test
     public void canGetStringOfNamesOfItemsInTheList() {
         assertEquals("Settlers of Catan, Dominion, ", gameCollection.getStringItemNames());
-
     }
 
     @Test
     public void canGetNamesOfAllItems() {
         assertEquals("Settlers of Catan, Dominion, ", gameCollection.getNamesOfAllItems());
-
     }
 
 

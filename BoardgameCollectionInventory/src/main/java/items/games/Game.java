@@ -8,14 +8,23 @@ public class Game extends Item {
     private GameGenreTypes genre;
 
 
-    public Game(String name,
-                double buyPrice,
-                int weight,
-                double marketValue,
-                int idealMarkup,
-                boolean favourite,
-                GameGenreTypes genre) {
-        super(name, buyPrice, weight, marketValue, idealMarkup, favourite);
+    public Game(
+            String name,
+            double buyPrice,
+            int weight,
+            double marketValue,
+            int idealMarkup,
+            boolean favourite,
+            GameGenreTypes genre
+    ) {
+        super(
+                name,
+                buyPrice,
+                weight,
+                marketValue,
+                idealMarkup,
+                favourite
+        );
         this.genre = genre;
         }
 
