@@ -12,10 +12,10 @@ public class GameCollectionTest {
     @Before
     public void before() {
         gameCollection = new GameCollection();
-        game = new Game("Settlers of Catan", 30.00, 5,  GameGenreTypes.TRADING, 32.00, 10, false);
-        game2 = new Game("Dominion", 35.00, 8, GameGenreTypes.DECK_BUILDER, 30.00, 15, false);
-        game3 = new Game("Coup", 12.00, 3, GameGenreTypes.BLUFFING, 18.00, 10, true);
-        game4 = new Game("Zombicide", 30.00, 10, GameGenreTypes.COOPERATIVE, 45.00, 10, false);
+        game = new Game("Settlers of Catan", 30.00, 5,  32.00, 10, false, GameGenreTypes.TRADING);
+        game2 = new Game("Dominion", 35.00, 8, 30.00, 10, false, GameGenreTypes.DECK_BUILDER);
+        game3 = new Game("Coup", 12.00, 3, 18, 10, false, GameGenreTypes.BLUFFING);
+        game4 = new Game("Zombicide", 30.00, 10, 45.00, 15, false, GameGenreTypes.COOPERATIVE);
         gameCollection.addToCollection(game);
         gameCollection.addToCollection(game2);
 
@@ -97,7 +97,7 @@ public class GameCollectionTest {
     public void canCalculateTotalPotentialProfit() {
         gameCollection.addToCollection(game3);
         gameCollection.addToCollection(game4);
-        assertEquals(15.00, gameCollection.calculateTotalPotentialProfit());
+        assertEquals(21.00, gameCollection.calculateTotalPotentialProfit());
     }
 
 
@@ -106,10 +106,14 @@ public class GameCollectionTest {
         assertEquals("Settlers of Catan, Dominion, ", gameCollection.getStringItemNames());
 
     }
-//    @Test
-//    public void canSortListByName() {
-//
-//    }
+
+    @Test
+    public void canGetNamesOfAllItems() {
+        assertEquals("Settlers of Catan, Dominion, ", gameCollection.getNamesOfAllItems());
+
+    }
+
+
 
 
 }

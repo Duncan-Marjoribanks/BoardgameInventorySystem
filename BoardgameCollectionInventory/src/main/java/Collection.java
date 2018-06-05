@@ -80,4 +80,13 @@ public abstract class Collection {
         return names;
     }
 
+    public String getNamesOfAllItems() {
+        StringBuilder names = new StringBuilder("");
+        for (Item item : this.collection){
+            names.append(item.getName()).append(", ");
+        }
+        return names.toString();
+    }
+
+
 }

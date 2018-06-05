@@ -11,8 +11,8 @@ public class GameTest {
 
     @Before
     public void before() {
-        game = new Game("Settlers of Catan", 30.00, 5, GameGenreTypes.TRADING, 33.00, 10, false);
-        game2 = new Game("Dominion", 35, 28, GameGenreTypes.DECK_BUILDER, 35, 15, false);
+        game = new Game("Settlers of Catan", 30.00, 5, 33.00, 10, false, GameGenreTypes.TRADING);
+        game2 = new Game("Dominion", 35, 28, 40, 15, true, GameGenreTypes.DECK_BUILDER);
     }
 
     @Test

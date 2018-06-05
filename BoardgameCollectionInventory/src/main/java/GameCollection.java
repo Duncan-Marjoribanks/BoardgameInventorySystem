@@ -1,6 +1,7 @@
 import items.Item;
 import items.games.Game;
 
+
 public class GameCollection extends Collection{
 
     public double calculateTotalPotentialProfit() {
@@ -11,4 +12,5 @@ public class GameCollection extends Collection{
         }
         return total;
     }
+
 }
