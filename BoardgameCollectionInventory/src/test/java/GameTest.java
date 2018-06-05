@@ -121,6 +121,4 @@ public class GameTest {
     public void canCalculateProfitFromSale() {
         assertEquals(3.00, game.calculateProfit());
     }
-
-
 }

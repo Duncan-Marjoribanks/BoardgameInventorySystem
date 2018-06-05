@@ -136,8 +136,4 @@ public class GameCollectionTest {
     public void canGetNamesOfAllItems() {
         assertEquals("Settlers of Catan, Dominion, ", gameCollection.getNamesOfAllItems());
     }
-
-
-
-
 }

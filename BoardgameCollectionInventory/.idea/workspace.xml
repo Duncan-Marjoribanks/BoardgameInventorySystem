@@ -25,29 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GameTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/GameTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-              <folding>
-                <element signature="e#1087#1088#0" expanded="true" />
-                <element signature="e#1157#1158#0" expanded="true" />
-                <element signature="e#1390#1391#0" expanded="true" />
-                <element signature="e#1459#1460#0" expanded="true" />
-                <element signature="e#1669#1670#0" expanded="true" />
-                <element signature="e#1727#1728#0" expanded="true" />
-                <element signature="e#1777#1778#0" expanded="true" />
-                <element signature="e#1835#1836#0" expanded="true" />
-                <element signature="e#2733#2734#0" expanded="true" />
-                <element signature="e#2782#2783#0" expanded="true" />
-                <element signature="e#2840#2841#0" expanded="true" />
-                <element signature="e#2898#2899#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/items/games/Game.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -66,8 +43,8 @@
       <file leaf-file-name="Item.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/items/Item.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="1725">
+              <caret line="115" column="0" lean-forward="true" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
               <folding>
                 <element signature="e#961#962#0" expanded="true" />
                 <element signature="e#997#998#0" expanded="true" />
@@ -117,8 +94,8 @@
       <file leaf-file-name="GameCollectionTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/GameCollectionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1995">
-              <caret line="133" column="0" lean-forward="true" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+            <state relative-caret-position="415">
+              <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1321#1322#0" expanded="true" />
@@ -136,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccessoryTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AccessoryTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/AccessoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+            <state relative-caret-position="276">
+              <caret line="66" column="35" lean-forward="true" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
               <folding>
                 <element signature="e#451#452#0" expanded="true" />
                 <element signature="e#513#514#0" expanded="true" />
@@ -148,6 +125,45 @@
                 <element signature="e#624#625#0" expanded="true" />
                 <element signature="e#827#828#0" expanded="true" />
                 <element signature="e#901#902#0" expanded="true" />
+                <element signature="e#1154#1155#0" expanded="true" />
+                <element signature="e#1216#1217#0" expanded="true" />
+                <element signature="e#1266#1267#0" expanded="true" />
+                <element signature="e#1329#1330#0" expanded="true" />
+                <element signature="e#1935#1936#0" expanded="true" />
+                <element signature="e#1998#1999#0" expanded="true" />
+                <element signature="e#2050#2051#0" expanded="true" />
+                <element signature="e#2118#2119#0" expanded="true" />
+                <element signature="e#2162#2163#0" expanded="true" />
+                <element signature="e#2216#2217#0" expanded="true" />
+                <element signature="e#2274#2275#0" expanded="true" />
+                <element signature="e#2337#2338#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/GameTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="122" column="5" lean-forward="true" selection-start-line="72" selection-start-column="1" selection-end-line="122" selection-end-column="5" />
+              <folding>
+                <element signature="e#721#722#0" expanded="true" />
+                <element signature="e#786#787#0" expanded="true" />
+                <element signature="e#829#830#0" expanded="true" />
+                <element signature="e#890#891#0" expanded="true" />
+                <element signature="e#1087#1088#0" expanded="true" />
+                <element signature="e#1157#1158#0" expanded="true" />
+                <element signature="e#1390#1391#0" expanded="true" />
+                <element signature="e#1459#1460#0" expanded="true" />
+                <element signature="e#1669#1670#0" expanded="true" />
+                <element signature="e#1727#1728#0" expanded="true" />
+                <element signature="e#1777#1778#0" expanded="true" />
+                <element signature="e#1835#1836#0" expanded="true" />
+                <element signature="e#2733#2734#0" expanded="true" />
+                <element signature="e#2782#2783#0" expanded="true" />
+                <element signature="e#2840#2841#0" expanded="true" />
+                <element signature="e#2898#2899#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -156,7 +172,7 @@
       <file leaf-file-name="AccessoryCollectionTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/AccessoryCollectionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
+            <state relative-caret-position="-650">
               <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
               <folding />
             </state>
@@ -178,11 +194,13 @@
       <find>collection</find>
       <find>Collection</find>
       <find>price</find>
+      <find>game</find>
     </findStrings>
     <replaceStrings>
       <replace>gameCollection</replace>
       <replace>GameCollection</replace>
       <replace>buyPrice</replace>
+      <replace>accessory</replace>
     </replaceStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -486,13 +504,13 @@
         <option value="$PROJECT_DIR$/src/main/java/GameCollection.java" />
         <option value="$PROJECT_DIR$/src/main/java/Collection.java" />
         <option value="47460f04-af10-431c-a67a-c00698f80401/consoles/boardGames" />
-        <option value="$PROJECT_DIR$/src/main/java/items/Item.java" />
         <option value="$PROJECT_DIR$/src/main/java/items/accessories/Accessory.java" />
-        <option value="$PROJECT_DIR$/src/test/java/AccessoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/AccessoryCollectionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/items/games/Game.java" />
-        <option value="$PROJECT_DIR$/src/test/java/GameCollectionTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/GameTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/GameCollectionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/items/Item.java" />
+        <option value="$PROJECT_DIR$/src/test/java/AccessoryTest.java" />
       </list>
     </option>
   </component>
@@ -858,27 +876,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_BoardgameCollectionInventory_test - 2018.06.05 at 10h 03m 26s.xml">
-      <configuration name="All in BoardgameCollectionInventory_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_BoardgameCollectionInventory_test - 2018.06.05 at 10h 03m 42s.xml">
-      <configuration name="All in BoardgameCollectionInventory_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_BoardgameCollectionInventory_test - 2018.06.05 at 10h 13m 59s.xml">
-      <configuration name="All in BoardgameCollectionInventory_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_BoardgameCollectionInventory_test - 2018.06.05 at 10h 14m 30s.xml">
-      <configuration name="All in BoardgameCollectionInventory_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_BoardgameCollectionInventory_test - 2018.06.05 at 10h 15m 12s.xml">
-      <configuration name="All in BoardgameCollectionInventory_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_BoardgameCollectionInventory_test - 2018.06.05 at 10h 15m 40s.xml">
-      <configuration name="All in BoardgameCollectionInventory_test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_BoardgameCollectionInventory_test - 2018.06.05 at 11h 03m 49s.xml">
-      <configuration name="All in BoardgameCollectionInventory_test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_BoardgameCollectionInventory_test - 2018.06.05 at 13h 45m 31s.xml">
       <configuration name="All in BoardgameCollectionInventory_test" configurationId="JUnit" />
     </history-entry>
@@ -886,6 +883,27 @@
       <configuration name="All in BoardgameCollectionInventory_test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="All_in_BoardgameCollectionInventory_test - 2018.06.05 at 13h 47m 16s.xml">
+      <configuration name="All in BoardgameCollectionInventory_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_BoardgameCollectionInventory_test - 2018.06.05 at 14h 00m 37s.xml">
+      <configuration name="All in BoardgameCollectionInventory_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_BoardgameCollectionInventory_test - 2018.06.05 at 14h 12m 20s.xml">
+      <configuration name="All in BoardgameCollectionInventory_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_BoardgameCollectionInventory_test - 2018.06.05 at 14h 12m 29s.xml">
+      <configuration name="All in BoardgameCollectionInventory_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_BoardgameCollectionInventory_test - 2018.06.05 at 14h 13m 37s.xml">
+      <configuration name="All in BoardgameCollectionInventory_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_BoardgameCollectionInventory_test - 2018.06.05 at 14h 14m 19s.xml">
+      <configuration name="All in BoardgameCollectionInventory_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_BoardgameCollectionInventory_test - 2018.06.05 at 14h 15m 04s.xml">
+      <configuration name="All in BoardgameCollectionInventory_test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_BoardgameCollectionInventory_test - 2018.06.05 at 14h 15m 30s.xml">
       <configuration name="All in BoardgameCollectionInventory_test" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -903,13 +921,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298611" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -931,7 +949,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <option name="time" value="11" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -941,6 +959,10 @@
         <state relative-caret-position="1305">
           <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
           <folding>
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
             <element signature="e#1087#1088#0" expanded="true" />
             <element signature="e#1157#1158#0" expanded="true" />
             <element signature="e#1390#1391#0" expanded="true" />
@@ -1074,6 +1096,10 @@
         <state relative-caret-position="1305">
           <caret line="108" column="0" lean-forward="false" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
           <folding>
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
             <element signature="e#1087#1088#0" expanded="true" />
             <element signature="e#1157#1158#0" expanded="true" />
             <element signature="e#1390#1391#0" expanded="true" />
@@ -1369,14 +1395,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AccessoryCollectionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/items/accessories/Accessory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -1385,10 +1403,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/items/games/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+          <folding>
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#768#769#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/GameCollectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1321#1322#0" expanded="true" />
+            <element signature="e#1386#1387#0" expanded="true" />
+            <element signature="e#2487#2488#0" expanded="true" />
+            <element signature="e#2565#2566#0" expanded="true" />
+            <element signature="e#2778#2779#0" expanded="true" />
+            <element signature="e#2857#2858#0" expanded="true" />
+            <element signature="e#2917#2918#0" expanded="true" />
+            <element signature="e#2984#2985#0" expanded="true" />
+            <element signature="e#3035#3036#0" expanded="true" />
+            <element signature="e#3115#3116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AccessoryCollectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-650">
+          <caret line="34" column="16" lean-forward="false" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/items/Item.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="1725">
+          <caret line="115" column="0" lean-forward="true" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
           <folding>
             <element signature="e#961#962#0" expanded="true" />
             <element signature="e#997#998#0" expanded="true" />
@@ -1424,59 +1483,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/items/games/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="19" column="8" lean-forward="true" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding>
-            <element signature="e#631#632#0" expanded="true" />
-            <element signature="e#672#673#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AccessoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding>
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/GameCollectionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1995">
-          <caret line="133" column="0" lean-forward="true" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1321#1322#0" expanded="true" />
-            <element signature="e#1386#1387#0" expanded="true" />
-            <element signature="e#2487#2488#0" expanded="true" />
-            <element signature="e#2565#2566#0" expanded="true" />
-            <element signature="e#2778#2779#0" expanded="true" />
-            <element signature="e#2857#2858#0" expanded="true" />
-            <element signature="e#2917#2918#0" expanded="true" />
-            <element signature="e#2984#2985#0" expanded="true" />
-            <element signature="e#3035#3036#0" expanded="true" />
-            <element signature="e#3115#3116#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/GameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        <state relative-caret-position="460">
+          <caret line="122" column="5" lean-forward="true" selection-start-line="72" selection-start-column="1" selection-end-line="122" selection-end-column="5" />
           <folding>
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#829#830#0" expanded="true" />
+            <element signature="e#890#891#0" expanded="true" />
             <element signature="e#1087#1088#0" expanded="true" />
             <element signature="e#1157#1158#0" expanded="true" />
             <element signature="e#1390#1391#0" expanded="true" />
@@ -1489,6 +1504,33 @@
             <element signature="e#2782#2783#0" expanded="true" />
             <element signature="e#2840#2841#0" expanded="true" />
             <element signature="e#2898#2899#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AccessoryTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="66" column="35" lean-forward="true" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
+          <folding>
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#513#514#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#624#625#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#1154#1155#0" expanded="true" />
+            <element signature="e#1216#1217#0" expanded="true" />
+            <element signature="e#1266#1267#0" expanded="true" />
+            <element signature="e#1329#1330#0" expanded="true" />
+            <element signature="e#1935#1936#0" expanded="true" />
+            <element signature="e#1998#1999#0" expanded="true" />
+            <element signature="e#2050#2051#0" expanded="true" />
+            <element signature="e#2118#2119#0" expanded="true" />
+            <element signature="e#2162#2163#0" expanded="true" />
+            <element signature="e#2216#2217#0" expanded="true" />
+            <element signature="e#2274#2275#0" expanded="true" />
+            <element signature="e#2337#2338#0" expanded="true" />
           </folding>
         </state>
       </provider>
