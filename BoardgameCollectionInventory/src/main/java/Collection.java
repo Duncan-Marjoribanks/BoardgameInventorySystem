@@ -72,4 +72,12 @@ public abstract class Collection {
         return total;
     }
 
+    public String getStringItemNames() {
+        String names = "";
+        for (Item item : this.collection) {
+            names = names + (item.getName() + ", ");
+        }
+        return names;
+    }
+
 }

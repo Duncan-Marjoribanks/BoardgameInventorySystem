@@ -101,5 +101,15 @@ public class GameCollectionTest {
     }
 
 
+    @Test
+    public void canGetStringOfNamesOfItemsInTheList() {
+        assertEquals("Settlers of Catan, Dominion, ", gameCollection.getStringItemNames());
+
+    }
+//    @Test
+//    public void canSortListByName() {
+//
+//    }
+
 
 }
