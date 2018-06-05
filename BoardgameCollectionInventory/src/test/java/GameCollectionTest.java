@@ -12,13 +12,40 @@ public class GameCollectionTest {
     @Before
     public void before() {
         gameCollection = new GameCollection();
-        game = new Game("Settlers of Catan", 30.00, 5,  32.00, 10, false, GameGenreTypes.TRADING);
-        game2 = new Game("Dominion", 35.00, 8, 30.00, 10, false, GameGenreTypes.DECK_BUILDER);
-        game3 = new Game("Coup", 12.00, 3, 18, 10, false, GameGenreTypes.BLUFFING);
-        game4 = new Game("Zombicide", 30.00, 10, 45.00, 15, false, GameGenreTypes.COOPERATIVE);
+        game = new Game(
+                "Settlers of Catan",
+                30.00,
+                5,
+                32.00,
+                10,
+                false, 
+                GameGenreTypes.TRADING);
+        game2 = new Game(
+                "Dominion",
+                35.00,
+                8,
+                30.00,
+                10,
+                false,
+                GameGenreTypes.DECK_BUILDER);
+        game3 = new Game(
+                "Coup",
+                12.00,
+                3,
+                18,
+                10,
+                false,
+                GameGenreTypes.BLUFFING);
+        game4 = new Game(
+                "Zombicide",
+                30.00,
+                10,
+                45.00,
+                15,
+                false,
+                GameGenreTypes.COOPERATIVE);
         gameCollection.addToCollection(game);
         gameCollection.addToCollection(game2);
-
     }
 
     @Test

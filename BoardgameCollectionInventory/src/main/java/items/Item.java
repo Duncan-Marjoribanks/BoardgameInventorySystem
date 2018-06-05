@@ -10,12 +10,14 @@ public abstract class Item {
     private boolean favourite;
     private boolean sellable;
 
-    public Item(String name,
-                double buyPrice,
-                int weight,
-                double marketValue,
-                int idealMarkup,
-                boolean favourite) {
+    public Item(
+            String name,
+            double buyPrice,
+            int weight,
+            double marketValue,
+            int idealMarkup,
+            boolean favourite)
+    {
         this.name = name;
         this.buyPrice = buyPrice;
         this.weight = weight;
