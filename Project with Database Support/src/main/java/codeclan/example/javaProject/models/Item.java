@@ -1,7 +1,9 @@
 package codeclan.example.javaProject.models;
 
+import javax.persistence.MappedSuperclass;
 import java.util.ArrayList;
 
+@MappedSuperclass
 public abstract class Item {
 
     private String name;

@@ -3,7 +3,15 @@ package codeclan.example.javaProject.models;
 
 import codeclan.example.javaProject.enums.GameGenreTypes;
 
+import javax.persistence.*;
+
+@Entity
+@Table (name = "game")
 public class Game extends Item {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    Long id;
 
     private GameGenreTypes genre;
 
