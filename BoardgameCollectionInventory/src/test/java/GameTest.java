@@ -144,4 +144,11 @@ public class GameTest {
         game.removeAKeyword("beginner friendly");
         assertEquals(0, game.countKeywords());
     }
+
+    @Test
+    public void canClearKeywords() {
+        game.setKeyword("beginner friendly");
+        game.clearKeywords();
+        assertEquals(0, game.countKeywords());
+    }
 }
