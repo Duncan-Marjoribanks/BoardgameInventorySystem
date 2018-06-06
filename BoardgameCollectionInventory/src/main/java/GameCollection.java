@@ -13,4 +13,6 @@ public class GameCollection extends Collection{
         return total;
     }
 
+
+
 }

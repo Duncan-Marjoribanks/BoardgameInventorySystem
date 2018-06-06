@@ -3,13 +3,12 @@ package items.games;
 import enums.GameGenreTypes;
 import items.Item;
 
+import java.util.ArrayList;
+
 
 public class Game extends Item {
 
     private GameGenreTypes genre;
-
-
-    private int id;
 
     public Game(
             String name,
@@ -19,6 +18,7 @@ public class Game extends Item {
             int idealMarkup,
             boolean favourite,
             GameGenreTypes genre
+
     ) {
         super(
                 name,
@@ -38,6 +38,5 @@ public class Game extends Item {
         public void setGenre (GameGenreTypes genre){
             this.genre = genre;
         }
-
 
 }

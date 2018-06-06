@@ -1,5 +1,7 @@
 package items;
 
+import java.util.ArrayList;
+
 public abstract class Item {
 
     private String name;
@@ -9,6 +11,7 @@ public abstract class Item {
     private int idealMarkup;
     private boolean favourite;
     private boolean sellable;
+    private ArrayList<String> keywords;
 
     public Item(
             String name,
@@ -25,61 +28,7 @@ public abstract class Item {
         this.idealMarkup = idealMarkup;
         this.favourite = favourite;
         this.sellable = false;
-    }
-
-
-    public boolean checkIfSellable() {
-        if(!this.favourite && (marketValue >= this.markUpByPercentage(this.idealMarkup)))
-        {this.makeSellable();}
-        else
-        {this.makeNotSellable();}
-        return this.sellable;
-    }
-
-    private void makeSellable() {
-        this.sellable = true;
-    }
-
-    private void makeNotSellable() {
-        this.sellable = false;
-    }
-
-    public double getMarketValue() {
-        return this.marketValue;
-    }
-
-    public int getIdealMarkup() {
-        return this.idealMarkup;
-    }
-
-    public boolean getFavourite() {
-        return this.favourite;
-    }
-
-    public void setMarketValue(double amount) {
-        this.marketValue = amount;
-    }
-
-    public void setIdealMarkup(int amount) {
-        this.idealMarkup = amount;
-    }
-
-    public void setFavouriteTrue() {
-        this.favourite = true;
-    }
-
-    public void setFavouriteFalse() {
-        this.favourite = false;
-    }
-
-    public double getTotalSellingPrice() {
-        return this.markUpByPercentage(idealMarkup) + this.getShippingCost();
-    }
-
-    public double calculateProfit() {
-        if (checkIfSellable()){
-            return this.marketValue - this.getBuyPrice();}
-        return 0.00;
+        this.keywords = new ArrayList<>();
     }
 
     public String getName() {
@@ -92,6 +41,56 @@ public abstract class Item {
 
     public int getWeight() {
         return this.weight;
+    }
+
+    public double getMarketValue() {
+        return this.marketValue;
+    }
+
+    public void setMarketValue(double amount) {
+        this.marketValue = amount;
+    }
+
+    public int getIdealMarkup() {
+        return this.idealMarkup;
+    }
+
+    public void setIdealMarkup(int amount) {
+        this.idealMarkup = amount;
+    }
+
+    public boolean getFavourite() {
+        return this.favourite;
+    }
+
+    public void setFavouriteTrue() {
+        this.favourite = true;
+    }
+
+    public void setFavouriteFalse() {
+        this.favourite = false;
+    }
+
+    private void makeSellable() {
+        this.sellable = true;
+    }
+
+    private void makeNotSellable() {
+        this.sellable = false;
+    }
+
+    public boolean checkIfSellable() {
+        if(!this.favourite && (marketValue >= this.markUpByPercentage(this.idealMarkup)))
+        {this.makeSellable();}
+        else
+        {this.makeNotSellable();}
+        return this.sellable;
+    }
+
+    public double calculateProfit() {
+        if (checkIfSellable()){
+            return this.marketValue - this.getBuyPrice();}
+        return 0.00;
     }
 
     public void addToPrice (double amount) {
@@ -110,6 +109,32 @@ public abstract class Item {
         if (weight <= 12)
             return 7.50;
         else return 20.00;
+    }
+
+    public double getTotalSellingPrice() {
+        return this.markUpByPercentage(idealMarkup) + this.getShippingCost();
+    }
+
+    public int countKeywords() {
+        return this.keywords.size();
+    }
+
+    public boolean checkKeywords(String word) {
+        return this.keywords.contains(word);
+    }
+
+    public void setKeyword(String keyword) {
+        this.keywords.add(keyword);
+    }
+
+    public void removeAKeyword(String word) {
+        if (this.keywords.contains(word)){
+            this.keywords.remove(word);
+        }
+    }
+
+    public void clearKeywords() {
+        this.keywords.clear();
     }
 
 }

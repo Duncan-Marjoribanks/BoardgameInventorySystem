@@ -7,7 +7,7 @@ import static junit.framework.TestCase.assertEquals;
 
 public class GameTest {
 
-    Game game, game2;
+    Game game, game2, game3;
 
     @Before
     public void before() {
@@ -28,6 +28,15 @@ public class GameTest {
                 15,
                 true,
                 GameGenreTypes.DECK_BUILDER
+        );
+        game3 = new Game(
+                "Zombicide",
+                40,
+                10,
+                45,
+                10,
+                false,
+                GameGenreTypes.COOPERATIVE
         );
     }
 
@@ -104,6 +113,7 @@ public class GameTest {
     public void canGetShippingCost() {
         assertEquals(5.00, game.getShippingCost());
         assertEquals(20.00, game2.getShippingCost());
+        assertEquals(7.50, game3.getShippingCost());
     }
 
     @Test
@@ -120,5 +130,18 @@ public class GameTest {
     @Test
     public void canCalculateProfitFromSale() {
         assertEquals(3.00, game.calculateProfit());
+    }
+
+    @Test
+    public void canSetKeyWord() {
+        game.setKeyword("beginner friendly");
+        assertEquals(true, game.checkKeywords("beginner friendly"));
+    }
+
+    @Test
+    public void canRemoveKeyword() {
+        game.setKeyword("beginner friendly");
+        game.removeAKeyword("beginner friendly");
+        assertEquals(0, game.countKeywords());
     }
 }
