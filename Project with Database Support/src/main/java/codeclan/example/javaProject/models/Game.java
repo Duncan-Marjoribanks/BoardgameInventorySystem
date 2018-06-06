@@ -1,7 +1,7 @@
-package items.games;
+package codeclan.example.javaProject.models;
 
-import enums.GameGenreTypes;
-import items.Item;
+
+import codeclan.example.javaProject.enums.GameGenreTypes;
 
 public class Game extends Item {
 
@@ -26,14 +26,14 @@ public class Game extends Item {
                 favourite
         );
         this.genre = genre;
-        }
+    }
 
-        public GameGenreTypes getGenre() {
-            return this.genre;
-        }
+    public GameGenreTypes getGenre() {
+        return this.genre;
+    }
 
-        public void setGenre (GameGenreTypes genre){
-            this.genre = genre;
-        }
+    public void setGenre (GameGenreTypes genre){
+        this.genre = genre;
+    }
 
 }
