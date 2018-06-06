@@ -4,11 +4,11 @@ import java.util.ArrayList;
 public abstract class Collection {
 
     protected ArrayList <Item> collection;
-    public ArrayList <Item> keyCollection;
+    public ArrayList <Item> keyWordCollection;
 
     protected Collection() {
         this.collection = new ArrayList <>();
-        this.keyCollection = new ArrayList <>();
+        this.keyWordCollection = new ArrayList <>();
     }
 
     public int countCollection() {
@@ -33,7 +33,7 @@ public abstract class Collection {
         return this.collection.contains(item);
     }
 
-    public ArrayList<Item> getEntireCollection() {
+    public ArrayList <Item> getEntireCollection() {
         return this.collection;
     }
 
@@ -83,22 +83,20 @@ public abstract class Collection {
     }
 
     public String getNamesOfAllItems() {
-        StringBuilder names = new StringBuilder("");
-        for (Item item : this.collection){
+        StringBuilder names = new StringBuilder();
+        for (Item item : this.collection) {
             names.append(item.getName()).append(", ");
         }
         return names.toString();
     }
 
-    public ArrayList<Item> getItemsByKeyword(String word) {
-        keyCollection.clear();
+    public ArrayList <Item> getItemsByKeyword(String word) {
+        keyWordCollection.clear();
         for (Item item : this.collection) {
             if (item.checkKeywords(word)) {
-                keyCollection.add(item);
+                keyWordCollection.add(item);
             }
         }
-        return keyCollection;
+        return keyWordCollection;
     }
-
-
 }
