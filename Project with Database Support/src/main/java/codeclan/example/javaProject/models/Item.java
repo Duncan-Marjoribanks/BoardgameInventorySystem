@@ -37,12 +37,24 @@ public abstract class Item {
         return this.name;
     }
 
+    public void setName(String newName) {
+        this.name = newName;
+    }
+
     public double getBuyPrice() {
         return this.buyPrice;
     }
 
+    public void setBuyPrice(double newPrice) {
+        this.buyPrice = newPrice;
+    }
+
     public int getWeight() {
         return this.weight;
+    }
+
+    public void setWeight(int newWeight) {
+        this.weight = newWeight;
     }
 
     public double getMarketValue() {
@@ -115,6 +127,10 @@ public abstract class Item {
 
     public double getTotalSellingPrice() {
         return this.markUpByPercentage(idealMarkup) + this.getShippingCost();
+    }
+
+    public String getKeywords() {
+        return this.keywords.toString();
     }
 
     public int countKeywords() {

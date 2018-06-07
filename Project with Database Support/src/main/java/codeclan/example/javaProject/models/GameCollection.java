@@ -1,5 +1,7 @@
 package codeclan.example.javaProject.models;
 
+
+
 public class GameCollection extends Collection{
 
     public double calculateTotalPotentialProfit() {
@@ -10,7 +12,6 @@ public class GameCollection extends Collection{
         }
         return total;
     }
-
 
 
 }

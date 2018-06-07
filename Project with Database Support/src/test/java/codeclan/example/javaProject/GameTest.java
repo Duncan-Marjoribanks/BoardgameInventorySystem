@@ -48,8 +48,20 @@ public class GameTest {
     }
 
     @Test
+    public void canSetName() {
+        game.setName("NotCatan");
+        assertEquals("Not Catan", game.getName());
+    }
+
+    @Test
     public void canGetPrice() {
         assertEquals(30.00, game.getBuyPrice(), 0.01);
+    }
+
+    @Test
+    public void canSetPrice() {
+        game.setBuyPrice(40.00);
+        assertEquals(40.00, game.getBuyPrice(), 0.01);
     }
 
     @Test
@@ -84,6 +96,12 @@ public class GameTest {
     @Test
     public void canGetMarketValue() {
         assertEquals(33.00, game.getMarketValue());
+    }
+
+    @Test
+    public void canSetMarketValue() {
+        game.setMarketValue(50.00);
+        assertEquals(50.00, game.getMarketValue(), 0.01);
     }
 
     @Test
@@ -152,6 +170,13 @@ public class GameTest {
         game.setKeyword("beginner friendly");
         game.clearKeywords();
         assertEquals(0, game.countKeywords());
+    }
+
+    @Test
+    public void canGetKeywords() {
+        game.setKeyword("beginner friendly");
+        game.setKeyword("second keyword");
+        assertEquals("[beginner friendly, second keyword]", game.getKeywords());
     }
 }
 

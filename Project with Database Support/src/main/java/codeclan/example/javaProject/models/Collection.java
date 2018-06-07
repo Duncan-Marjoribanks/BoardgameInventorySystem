@@ -76,9 +76,10 @@ public abstract class Collection {
     }
 
     public String getStringItemNames() {
+        String delimiter = ", ";
         String names = "";
         for (Item item : this.collection) {
-            names = names + (item.getName() + ", ");
+            names = names + (item.getName() + delimiter);
         }
         return names;
     }

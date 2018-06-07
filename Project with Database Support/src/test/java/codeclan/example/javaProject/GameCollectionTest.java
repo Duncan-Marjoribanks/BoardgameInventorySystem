@@ -5,6 +5,7 @@ import codeclan.example.javaProject.models.Game;
 import codeclan.example.javaProject.models.GameCollection;
 import org.junit.Before;
 import org.junit.Test;
+import org.springframework.data.jpa.repository.JpaRepository;
 
 import static junit.framework.TestCase.assertEquals;
 
@@ -147,5 +148,6 @@ public class GameCollectionTest {
         game3.setKeyword("special");
         assertEquals(2, gameCollection.getItemsByKeyword("special").size());
     }
+
 
 }
