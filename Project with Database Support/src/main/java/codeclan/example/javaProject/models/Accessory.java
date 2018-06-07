@@ -1,14 +1,9 @@
 package codeclan.example.javaProject.models;
 
-import org.hibernate.annotations.Table;
-
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
-//@Table(name = "accessory")
+@Table (name = "accessory")
 public class Accessory extends Item {
 
     @Id
@@ -16,7 +11,6 @@ public class Accessory extends Item {
     Long id;
 
     public Accessory() {
-
     }
 
     public Accessory(
