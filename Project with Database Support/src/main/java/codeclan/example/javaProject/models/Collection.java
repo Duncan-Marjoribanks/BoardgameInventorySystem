@@ -5,11 +5,9 @@ import java.util.ArrayList;
 public abstract class Collection {
 
     protected ArrayList <Item> collection;
-    public ArrayList <Item> keyWordCollection;
 
     protected Collection() {
         this.collection = new ArrayList <>();
-        this.keyWordCollection = new ArrayList <>();
     }
 
     public int countCollection() {
@@ -92,13 +90,4 @@ public abstract class Collection {
         return names.toString();
     }
 
-    public ArrayList <Item> getItemsByKeyword(String word) {
-        keyWordCollection.clear();
-        for (Item item : this.collection) {
-            if (item.checkKeywords(word)) {
-                keyWordCollection.add(item);
-            }
-        }
-        return keyWordCollection;
-    }
 }

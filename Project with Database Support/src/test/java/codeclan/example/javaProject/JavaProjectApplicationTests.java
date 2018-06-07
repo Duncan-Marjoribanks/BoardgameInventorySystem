@@ -36,19 +36,19 @@ public class JavaProjectApplicationTests {
 				false,
 				GameGenreTypes.TRADING
 		);
-		game.setKeyword("Beginner");
 		repository.save(game);
 	}
 
 	@Test
 	public void canReadFromDatabase() {
-		game = repository.findById(Game<1L>1L);
+		Game game = repository.getOne(1L);
+		System.out.println(game);
 		assertEquals("game2", game.getName());
 	}
 
 	@Test
 	public void canUpdateDatabase() {
-		game = repository.getOne(1L);
+		Game game = repository.getOne(1L);
 		game.setName("game3");
 		repository.save(game);
 }

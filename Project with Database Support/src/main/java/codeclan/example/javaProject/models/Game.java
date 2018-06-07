@@ -14,6 +14,9 @@ public class Game extends Item {
     Long id;
 
     private GameGenreTypes genre;
+    public Game() {
+
+    }
 
     public Game(
             String name,

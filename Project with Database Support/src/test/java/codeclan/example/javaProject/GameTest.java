@@ -152,31 +152,32 @@ public class GameTest {
         assertEquals(3.00, game.calculateProfit());
     }
 
-    @Test
-    public void canSetKeyWord() {
-        game.setKeyword("beginner friendly");
-        assertEquals(true, game.checkKeywords("beginner friendly"));
-    }
-
-    @Test
-    public void canRemoveKeyword() {
-        game.setKeyword("beginner friendly");
-        game.removeAKeyword("beginner friendly");
-        assertEquals(0, game.countKeywords());
-    }
-
-    @Test
-    public void canClearKeywords() {
-        game.setKeyword("beginner friendly");
-        game.clearKeywords();
-        assertEquals(0, game.countKeywords());
-    }
-
-    @Test
-    public void canGetKeywords() {
-        game.setKeyword("beginner friendly");
-        game.setKeyword("second keyword");
-        assertEquals("[beginner friendly, second keyword]", game.getKeywords());
-    }
+//
+//    @Test
+//    public void canSetKeyWord() {
+//        game.setKeyword("beginner friendly");
+//        assertEquals(true, game.checkKeywords("beginner friendly"));
+//    }
+//
+//    @Test
+//    public void canRemoveKeyword() {
+//        game.setKeyword("beginner friendly");
+//        game.removeAKeyword("beginner friendly");
+//        assertEquals(0, game.countKeywords());
+//    }
+//
+//    @Test
+//    public void canClearKeywords() {
+//        game.setKeyword("beginner friendly");
+//        game.clearKeywords();
+//        assertEquals(0, game.countKeywords());
+//    }
+//
+//    @Test
+//    public void canGetKeywords() {
+//        game.setKeyword("beginner friendly");
+//        game.setKeyword("second keyword");
+//        assertEquals("[beginner friendly, second keyword]", game.getKeywords());
+//    }
 }
 

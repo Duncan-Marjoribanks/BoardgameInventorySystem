@@ -141,13 +141,5 @@ public class GameCollectionTest {
         assertEquals("Settlers of Catan, Dominion, ", gameCollection.getNamesOfAllItems());
     }
 
-    @Test
-    public void canGetAllItemsWithAKeyword() {
-        gameCollection.addToCollection(game3);
-        game.setKeyword("special");
-        game3.setKeyword("special");
-        assertEquals(2, gameCollection.getItemsByKeyword("special").size());
-    }
-
 
 }

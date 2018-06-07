@@ -1,9 +1,12 @@
 package codeclan.example.javaProject.models;
 
+import javax.persistence.Inheritance;
+import javax.persistence.InheritanceType;
 import javax.persistence.MappedSuperclass;
 import java.util.ArrayList;
 
 @MappedSuperclass
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 public abstract class Item {
 
     private String name;
@@ -13,8 +16,10 @@ public abstract class Item {
     private int idealMarkup;
     private boolean favourite;
     private boolean sellable;
-    private ArrayList<String> keywords;
 
+    public Item() {
+
+    }
     public Item(
             String name,
             double buyPrice,
@@ -30,7 +35,6 @@ public abstract class Item {
         this.idealMarkup = idealMarkup;
         this.favourite = favourite;
         this.sellable = false;
-        this.keywords = new ArrayList<>();
     }
 
     public String getName() {
@@ -129,30 +133,30 @@ public abstract class Item {
         return this.markUpByPercentage(idealMarkup) + this.getShippingCost();
     }
 
-    public String getKeywords() {
-        return this.keywords.toString();
-    }
-
-    public int countKeywords() {
-        return this.keywords.size();
-    }
-
-    public boolean checkKeywords(String word) {
-        return this.keywords.contains(word);
-    }
-
-    public void setKeyword(String keyword) {
-        this.keywords.add(keyword);
-    }
-
-    public void removeAKeyword(String word) {
-        if (this.keywords.contains(word)){
-            this.keywords.remove(word);
-        }
-    }
-
-    public void clearKeywords() {
-        this.keywords.clear();
-    }
+//    public String getKeywords() {
+//        return this.keywords.toString();
+//    }
+//
+//    public int countKeywords() {
+//        return this.keywords.size();
+//    }
+//
+//    public boolean checkKeywords(String word) {
+//        return this.keywords.contains(word);
+//    }
+//
+//    public void setKeyword(String keyword) {
+//        this.keywords.add(keyword);
+//    }
+//
+//    public void removeAKeyword(String word) {
+//        if (this.keywords.contains(word)){
+//            this.keywords.remove(word);
+//        }
+//    }
+//
+//    public void clearKeywords() {
+//        this.keywords.clear();
+//    }
 
 }
