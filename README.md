@@ -1,6 +1,7 @@
 # Brief
 
-Collection Tracker
+# Collection Tracker
+
 Goal: Build an app in Java that helps a collector keep track of the items in their collection.
 
 Finn needs help keeping track of her collection. She wants to see which items she has and how much money she has spent on them. She needs to be able to:
